@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
-        int Num = 30;
-        System.out.print("The Amount of money saved in 30 days: ");
-        System.out.println((Num*(Num+1))/2);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the Number of Days: ");
+        int Num = input.nextInt();
+        System.out.print("Total Money saved in " + Num + " days: ");
+        System.out.println((Num * (Num + 1)) / 2);
     }
 }
