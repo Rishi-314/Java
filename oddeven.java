@@ -1,4 +1,4 @@
-public class oddeven {
+class Main {
     public static void main(String[] args) {
         int num = 7; // change this value to test with other numbers
 
